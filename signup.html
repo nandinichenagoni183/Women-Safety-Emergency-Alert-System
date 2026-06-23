@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Women Safety Registration</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    background:#f4f4f4;
+}
+
+.container{
+    width:400px;
+    margin:50px auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+
+h2{
+    text-align:center;
+    color:#e91e63;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+    margin-bottom:15px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    background:#e91e63;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#c2185b;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Women Safety Registration</h2>
+
+<form action="register.php" method="POST">
+
+<input
+type="text"
+name="name"
+placeholder="Enter Full Name"
+required>
+
+<input
+type="email"
+name="email"
+placeholder="Enter Email"
+required>
+
+<input
+type="text"
+name="phone"
+placeholder="Enter Phone Number"
+required>
+
+<input
+type="password"
+name="password"
+placeholder="Enter Password"
+required>
+
+<button type="submit">
+Register
+</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
